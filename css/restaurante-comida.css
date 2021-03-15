@@ -1,0 +1,54 @@
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: url(../images/Comidas/c2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.separador{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(88, 70, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.separador .mensaje{
+    z-index: 100;
+    max-width: 900px;
+    text-align: center;
+}
+
+.separador .mensaje h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.separador .mensaje p{
+    line-height: 22px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comidas</title>
+        <link rel="stylesheet" href="css/restaurante-main.css"/>
+        <link rel="stylesheet" href="css/restaurante-comida.css"/>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Food<span>.</span></a>
+            <div class="menuToggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            </ul>
+        </header>
+
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2>Elije lo mejor</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam non labore omnis vero! Voluptas illo nemo ratione debitis perferendis repudiandae reprehenderit quae vero assumenda vel, laudantium, tempora eligendi optio.
+                </p>
+                <a href="#" class="btn">Ver más</a>
+            </div>
+        </section>
+
+        
+
+        <section class="menu" id="menu">
+            <div class="title" data-center-center="opacity:1; top: 0px" data-0-bottom="opacity:0; top: -200px">
+                <h3 class="titleText">Our <span> M</span>ain food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae qui corporis aperiam accusamus! Perspiciatis eaque ut voluptates iste quaerat! Molestiae et aperiam minus tenetur voluptas porro laborum vero explicabo placeat?</p>
+            </div>
+
+            <div class="content">
+                <div class="box" data-center-center="opacity:1; top: 0px" data-0-bottom="opacity:0; top: -100px">
+                    <div class="imgBx"><img src="images/menu1.jpg"/></div>
+                    <div class="text"><h3>Special Salads</h3></div>
+                    <p>Con esta ensalada tus papilas gustativas quedaran sorprendidas</p>
+                </div>
+                <div class="box" data-center-center="opacity:1; top: 0px" data-0-bottom="opacity:0; top: -100px">
+                    <div class="imgBx"><img src="images/menu1.jpg"/></div>
+                    <div class="text"><h3>Special Salads</h3></div>
+                    <p>Con esta ensalada tus papilas gustativas quedaran sorprendidas</p>
+                </div>
+                <div class="box" data-center-center="opacity:1; top: 0px" data-0-bottom="opacity:0; top: -100px">
+                    <div class="imgBx"><img src="images/menu2.jpg"/></div>
+                    <div class="text"><h3>Special Soup</h3></div>
+                </div>
+
+                <div class="box" data-center-center="opacity:1; top: 0px" data-0-bottom="opacity:0; top: -100px">
+                    <div class="imgBx"><img src="images/menu3.jpg"/></div>
+                    <div class="text"><h3>Special Salads</h3></div>
+                </div>
+
+                <div class="box" data-center-center="opacity:1; top: 0px" data-0-bottom="opacity:0; top: -100px">
+                    <div class="imgBx"><img src="images/menu4.jpg"/></div>
+                    <div class="text"><h3>Special Salads</h3></div>
+                </div>
+            </div>
+            <div class="title">
+                <a href="#" class="btn">View All</a>
+            </div>        
+        </section>
+
+        <div class="separador">
+            <img src="images/Comidas/c3.jpg">
+            <div class="mensaje">
+                <h1>La comida se debe disfrutar</h1>
+                <p>
+                    Un corte se disfruta con todos los sentidos y en la ciudad existen siete restaurantes de carne que estimulan los sentidos a punto de lágrima.
+                </p>
+            </div>
+            
+        </div>
+
+
+        <section class="contact">
+            <div class="title" data-200-top="opacity:1; top: 0px" data-200-bottom="opacity:0; top: -200px">
+                <h2 class="titleText"><span>C</span>ontact us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae quod cupiditate?</p>
+            </div>
+            <div class="contactForm" data-center-center="opacity:1; left: 0px" data-0-bottom="opacity:0; left: -200px">
+                <form>
+                    <h3>Send Message</h3>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name:"/>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Email:"/>
+                    </div>
+                    <div class="inputBox">
+                        <textarea placeholder="Message:"></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" placeholder="Send"/>
+                    </div>
+                </form>               
+            </div>
+        </section>
+
+        <div class="copyrightText" id="contact">
+            <p>Copyright 2021 Marco Garduño. All Right Reserved</p>
+        </div>
+
+        <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+        <script src="Js/restaurante.js"></script>
+        <script src="Js/skrollr.min.js"></script>
+        <script src="Js/skrollr.menu.min.js"></script>
+        <script type="text/javascript">
+            if(screen.width >= 1200)
+                var s = skrollr.init();
+        </script>
+    </body>
+</html>
