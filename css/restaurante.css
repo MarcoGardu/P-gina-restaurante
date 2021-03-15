@@ -6,7 +6,9 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-
+body{
+    overflow-x: hidden;
+}
 p{
     font-weight: 300;
     color: #111;
@@ -117,7 +119,7 @@ header.sticky .navigation li a{
 /*!                   Estilos para la About us                  */
 /*! =========================================================== */
 section{
-    padding:100px;
+    padding: 50px;
 }
 .row{
     position: relative;
@@ -135,7 +137,6 @@ section{
     color: #111;
     font-size: 2em;
     font-weight: 300;
-    
 }
 .titleText span{
     color: #FF0157;
